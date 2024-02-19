@@ -1,7 +1,8 @@
 cask "kegger" do
-  version "2.0.0-alpha1"
-  sha256 ""
   arch arm: "arm64", intel: "amd64"
+
+  version "2.0.0-alpha1"
+  sha256 ":no-check"
 
   url "https://github.com/bealearts/kegger/releases/download/v#{version}/Kegger-#{arch}.dmg"
   name "Kegger"
